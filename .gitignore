@@ -1,2 +1,4 @@
 .idea/*
 ddm_project.iml
+*.class
+src/Test.java
