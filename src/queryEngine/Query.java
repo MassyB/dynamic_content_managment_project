@@ -70,7 +70,6 @@ public class Query {
 
         // construct the workflow on the fly
 
-        Workflow workflow;
         Table outputTable = extractOutputTable();
 
         // the other thing to verifiy is that number of directions is equal to number of arguments
