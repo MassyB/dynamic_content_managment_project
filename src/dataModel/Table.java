@@ -5,6 +5,7 @@ import java.util.*;
 public class Table {
 
     private Map<String,List<String>> rows;
+    private String name;
 
 
     // constructors;
@@ -21,6 +22,12 @@ public class Table {
             rows.put(column, new ArrayList<>());
         }
     }
+
+    public Table(Set<String> columns, String name){
+        this(columns);
+        this.name = name;
+    }
+
     // useful methods
     public int getSize(){
 
