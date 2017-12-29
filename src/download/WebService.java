@@ -89,6 +89,7 @@ public class WebService {
 	 * @throws Exception
 	 */
 	public String getTransformationResult(String  fileWithCallResult) throws Exception{
+
 		Source callResult = new StreamSource(new File(fileWithCallResult));
 		
 		Source xsl = new StreamSource(new File(Settings.dirWithDef+this.name+".xsl"));
@@ -110,12 +111,14 @@ public class WebService {
 	 * @return the URL of the call for the given inputs 
 	 */
 	public String getURLForCallWithInputs(String... inputs){
+		// only one input considered
 		int i=0;
 		StringBuffer call=new StringBuffer();
 		for(String p:urlFragments){
 			if(p==null){
 				if(i>=inputs.length) return null; //something wrong; insufficient number of input values
 				call.append(Formating.transformStringForURL(inputs[i]));
+				i++; // to get the other input variables
 			}
 			else call.append(p);
 		}
