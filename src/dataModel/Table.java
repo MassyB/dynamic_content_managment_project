@@ -212,6 +212,22 @@ public class Table {
         rows = joinedTable.rows;
     }
 
+    public void unionAll(Table t){
+        // the two tables have the same schema
+        // this modify the table, as the other operations do
+
+        for(String column: t.rows.keySet())
+            rows.get(column).addAll(t.rows.get(column));
+
+    }
+
+    public void rename(Map<String, String> oldToNew){
+        // rename the columns of a table
+        // changes are made inplace
+        for(String column: oldToNew.keySet())
+            rows.put( oldToNew.get(column), rows.remove(column) );
+    }
+
     @Override
     public String toString() {
         StringBuilder tableString = new StringBuilder("");
