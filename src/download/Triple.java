@@ -3,7 +3,10 @@ package download;
 public class Triple {
    /** by convention an element (be it subject, object or predicate)  
     *  is a variable iff it starts with the character ?
-    * **/ 
+    * **/
+
+   // this class is never used
+
 	public final String subject;
 	public final String predicate;
 	public final String object;
