@@ -2,3 +2,6 @@
 ddm_project.iml
 *.class
 src/Test.java
+WS-Evaluation/*/call_results/*.xml
+WS-Evaluation/*/transf_results/*.xml
+out/**

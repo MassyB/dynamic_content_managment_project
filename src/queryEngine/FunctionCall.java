@@ -20,6 +20,25 @@ public class FunctionCall {
         ws = new WebServiceWrapper(name);
     }
 
+    public boolean isExecutable(){
+
+        if (! ws.isDefined())
+            return false;
+
+        // see if the underlying service has the same number of parameters as the function call
+        if (arguments.size() != ws.getNumberOfParameters())
+            return false;
+
+        // see if the underlying service has all the required inputs/outputs
+        for(int i=0; i < arguments.size(); i++){
+            if(arguments.get(i).isInput())
+                if (i > ws.getWsLastInputPostion())
+                    return false;
+        }
+
+        return true;
+    }
+
     public ArrayList<String[]> getInputFromTable(Table t){
 
         // capable of joining with the table
@@ -89,7 +108,7 @@ public class FunctionCall {
         return name;
     }
 
-    public WebServiceWrapper getWs() {
+    public WebServiceWrapper getWsWrapper() {
         return ws;
     }
 

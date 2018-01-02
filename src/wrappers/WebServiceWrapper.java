@@ -32,6 +32,18 @@ public class WebServiceWrapper {
             positionToArgName.put(e.getValue(), e.getKey());
     }
 
+    public boolean isDefined(){
+
+        return !(webService == null);
+    }
+
+    public int getWsLastInputPostion(){
+        return webService.numberOfInputs;
+    }
+
+    public int getNumberOfParameters(){
+        return webService.headVariables.size();
+    }
 
     public Table getResultTable(String... inputs)
             throws WebServiceCallFailedException,
@@ -69,7 +81,7 @@ public class WebServiceWrapper {
 
         for(String[] tuple: tuples)
             for(int i=0; i < tuple.length; i++){
-                // make the difference between the NODEF tuples and the others
+                // make the difference between the NODEF values and the others
                 if(! tuple[i].equals(NODEF))
                     rows.get(positionToArgName.get(i)).add(tuple[i]);
                 else
@@ -78,10 +90,6 @@ public class WebServiceWrapper {
 
 
         return new Table(rows);
-    }
-
-    public Map<Integer, String> getPositionToArgName() {
-        return positionToArgName;
     }
 
     public String getArgName(int i){
