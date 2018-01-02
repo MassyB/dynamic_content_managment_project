@@ -14,7 +14,7 @@ public class Query {
     // output(?arg1,?arg2)<-webService1^ioo("cst",?param1,?param2)#webService2^io(?param1,?param2,?p)
     private String identifierStr = "[a-zA-Z0-9_]+";
     private String parameterStr = "\\?"+identifierStr;
-    private String constantStr = '"'+identifierStr+'"';
+    private String constantStr = '"'+".+"+'"';
     private String argumentStr= "("+constantStr+"|"+parameterStr+")";
     private String directionStr = "[io]+";
     private String functionCallSeparatorStr = "#";
@@ -86,7 +86,11 @@ public class Query {
 
             functionName = extractFunctionName(functionCall);
             arguments = extractFunctionArguments(functionCall);
+
+            //return null if the inputs are not declared first
             directions = extractFunctionArgumentDirections(functionCall);
+
+            if (directions == null) return false;
 
             if(arguments.size() != directions.size()) return false;
 
@@ -160,6 +164,10 @@ public class Query {
 
         directions  = functionCall.substring(functionCall.indexOf("^")+1 , functionCall.indexOf("("))
                                   .split("");
+
+        //see if the inputs are declared first, if not return null
+        if (String.join("",directions).matches("oi"))
+                return null;
 
         return new ArrayList<>(Arrays.asList(directions));
 
