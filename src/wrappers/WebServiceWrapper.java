@@ -104,6 +104,8 @@ public class WebServiceWrapper {
 
             if(arg.isVariable())
                 oldToNewRenamingMap.put(positionToArgName.get(i), arg.getName());
+            else // a constant
+                oldToNewRenamingMap.put(positionToArgName.get(i), positionToArgName.get(i));
 
             i++;
         }

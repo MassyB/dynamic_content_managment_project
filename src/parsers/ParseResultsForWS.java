@@ -15,6 +15,7 @@ import org.w3c.dom.NodeList;
 import download.WebService;
 
 public class ParseResultsForWS  {
+	 // this class is only transforming 25 records of the original query result
 	 static final DocumentBuilderFactory builderFactory = DocumentBuilderFactory.newInstance();
      static final DocumentBuilder builder = getBuilder();
      static final XPath xPath =  XPathFactory.newInstance().newXPath();

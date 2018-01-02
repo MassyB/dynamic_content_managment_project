@@ -13,6 +13,6 @@ public class WebServiceCallFailedException extends Exception{
     @Override
     public String getMessage() {
         return  "webService call Failed: "+wsName+"\n"+
-                "with inputs: "+inputs;
+                "with inputs: "+ String.join(", ",inputs);
     }
 }
