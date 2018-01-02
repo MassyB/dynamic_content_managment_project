@@ -29,6 +29,11 @@ public class Table {
     }
 
     // useful methods
+    public Set<String> getSchema(){
+
+        return rows.keySet();
+    }
+
     public int getSize(){
 
         Iterator<String> columnIter =  rows.keySet().iterator();
@@ -41,6 +46,21 @@ public class Table {
         // empty table : no columns and no rows
         return 0;
 
+    }
+
+    public Map<String, List<String>> getColumns(List<String> columns){
+
+        Map<String, List<String>> view = new HashMap<String, List<String>>();
+        for(String column: columns)
+            view.put(column, rows.get(column));
+
+        return view;
+
+    }
+
+    public List<String> getColumn(String column){
+
+        return rows.get(column);
     }
 
     public Table getCopy(){
@@ -65,6 +85,14 @@ public class Table {
         }
 
         rows = table.rows;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     // table operations
@@ -106,6 +134,9 @@ public class Table {
 
     public void project(Set<String> columns){
 
+        //if arguments in the right hand side are not present in the left hand side
+        // the projection will be empty
+
         Set<String> tableColumns = new HashSet<>(rows.keySet());
         // columns to discard
         tableColumns.removeAll(columns);
@@ -119,17 +150,17 @@ public class Table {
 
     public void select(Map<String, Set<String>> criteria){
 
-        Table copy = getCopy();
+        if (criteria.isEmpty()) return;
 
+        Table copy = new Table(getSchema());
         for(int i=0; i < getSize(); i ++){
 
-            Map<String, String> row = copy.getRow(i);
-            if (! copy.rowHasAll(row, criteria))
-                copy.deleteRow(i);
-
+            Map<String, String> row = getRow(i);
+            if (rowHasAll(row, criteria)){
+                copy.addRow(row);
+            }
         }
 
-        // updating the current table
         rows = copy.rows;
     }
 
