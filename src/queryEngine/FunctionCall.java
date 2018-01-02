@@ -108,9 +108,6 @@ public class FunctionCall {
         return name;
     }
 
-    public WebServiceWrapper getWsWrapper() {
-        return ws;
-    }
 
     public String[] getConstants(){
 
@@ -147,7 +144,7 @@ public class FunctionCall {
 
     public Set<String> getSchema(){
 
-        return new HashSet<>(ws.getRenamingMap(arguments).values());
+        return new HashSet<String>(ws.getRenamingMap(arguments).values());
     }
 
     // table is filtered if necessary: arg t maybe modified
