@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ws>
+    <!-- variables in the head: the order matters:
+     the first variables should be the input variables, followed by the output variables
+     also, for the input variables the order should match the order in the URLs of the calls
+     -->
+    <headVariables>
+        <variable type="inout" name="?albumId"/>
+        <variable type="output" name="?recordingId"/>
+        <variable type="output" name="?title"/>
+        <variable type="output" name="?length"/>
+    </headVariables>
+    
+
+	<definition>
+		
+	</definition>
+	
+   
+	<call>
+		<part type="constant" value="https://musicbrainz.org/ws/2/recording?release="/>
+		<part type="input" variable="?albumId" separator="+" />
+        <part type="constant" value="&amp;fmt=xml"/>
+	</call>
+	
+	<transformation file="mb_getSongByAlbumId.xsl"/>
+
+</ws>
+
