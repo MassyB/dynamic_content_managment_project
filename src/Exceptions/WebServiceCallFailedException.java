@@ -1,5 +1,10 @@
 package Exceptions;
 
+
+/**
+ *  Exception for when an error occurs during the call of a web service.
+ * */
+
 public class WebServiceCallFailedException extends Exception{
 
     private String wsName;

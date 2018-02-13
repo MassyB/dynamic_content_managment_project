@@ -1,5 +1,9 @@
 package Exceptions;
 
+/**
+ *  Exception for when an error occurs during the transformation of an xml file.
+ * */
+
 public class TransfomationFailedException  extends Exception{
 
     private String webServiceName;

@@ -1,5 +1,9 @@
 package Exceptions;
 
+/**
+ * Exception for when an error occurs during the parsing of transformation file.
+ * */
+
 public class ParsingTransformedFileFailedException extends Exception {
 
     private String webServiceName;
