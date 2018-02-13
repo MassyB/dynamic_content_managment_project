@@ -8,6 +8,12 @@ import java.util.HashSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ *  models the query : composition of webservice calls
+ *  this class is used to construct the workflow by analysing the textual query and
+ *  extracting function names, as well as arguments and their direction.
+ * */
+
 public class Query {
     // see if a query is syntactically correct
     // example of a query :
@@ -188,9 +194,7 @@ public class Query {
         ArrayList<String> arguments = extractOutputArgument(outputDefinition);
         String outputName = extractOutputName(outputDefinition);
 
-        Table outputTable = new Table(new HashSet<>(arguments), outputName);
-
-        return outputTable;
+        return new Table(new HashSet<>(arguments), outputName);
     }
 
     private ArrayList<String> extractOutputArgument(String definition){
@@ -212,9 +216,5 @@ public class Query {
 
         return outputDefinition.substring(0, outputDefinition.indexOf('('));
     }
-
-
-
-
 
 }

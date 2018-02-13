@@ -8,10 +8,17 @@ import wrappers.WebServiceWrapper;
 
 import java.util.*;
 
+/**
+ * models a function call example: getAlbums(artistId)
+ * */
+
 public class FunctionCall {
 
+    // name of the function call, example: getAlbums
     private String name;
+    // arguments of the function [artistId]
     private ArrayList<FunctionArgument> arguments;
+    // the actual object that's doing the http requests
     private WebServiceWrapper ws;
 
     public FunctionCall(String name, ArrayList<FunctionArgument> arguments) {
@@ -75,6 +82,10 @@ public class FunctionCall {
         return inputs;
     }
 
+    /***
+     * @return returns a "length" sized list of s
+     * example: getColumnVector('a',2) will return ['a', 'a']
+     */
     public List<String> getColumnVector(String s, int lenght){
 
         List<String> columnVector = new ArrayList<>();
@@ -84,6 +95,7 @@ public class FunctionCall {
 
         return columnVector;
     }
+
 
     public ArrayList<FunctionArgument> getInputArg(){
 

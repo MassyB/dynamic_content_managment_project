@@ -11,6 +11,10 @@ import queryEngine.FunctionArgument;
 
 import java.util.*;
 
+/**
+ * wrapper class used to only provide useful api of download.WebService
+ * */
+
 public class WebServiceWrapper {
 
     private WebService webService;

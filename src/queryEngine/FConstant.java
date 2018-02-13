@@ -2,6 +2,10 @@ package queryEngine;
 
 import java.util.Objects;
 
+/**
+ * models the constant in the function call
+ * */
+
 public class FConstant extends FunctionArgument {
 
     private String value;

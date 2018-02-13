@@ -2,6 +2,11 @@ package queryEngine;
 
 import java.util.Objects;
 
+/**
+ * models a variable in a function call
+ */
+
+
 public class FVariable extends FunctionArgument{
 
     private String name;

@@ -7,6 +7,10 @@ import dataModel.Table;
 
 import java.util.*;
 
+/**
+ * class that models the workflow : services used, arguments passed
+ * */
+
 public class Workflow {
 
 
