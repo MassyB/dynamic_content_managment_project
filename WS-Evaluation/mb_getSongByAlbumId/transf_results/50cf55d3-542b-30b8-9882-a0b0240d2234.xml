@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><RESULT xmlns:mb="http://musicbrainz.org/ns/mmd-2.0#">
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">53e1d16c-6fbd-45e4-8d7d-9274f852c504</ITEM>
+  <ITEM ANGIE-VAR="?title">Blue Suede Shoes</ITEM>
+  <ITEM ANGIE-VAR="?length">120693</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">83201a00-71b5-418b-b589-a0dc4c7f1709</ITEM>
+  <ITEM ANGIE-VAR="?title">Tutti Frutti</ITEM>
+  <ITEM ANGIE-VAR="?length">117000</ITEM></RECORD></RESULT>

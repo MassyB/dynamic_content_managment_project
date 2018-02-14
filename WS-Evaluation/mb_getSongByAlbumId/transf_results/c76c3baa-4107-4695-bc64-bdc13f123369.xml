@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><RESULT xmlns:mb="http://musicbrainz.org/ns/mmd-2.0#">
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">02ab4b31-61e3-495d-89d5-b5e3b4b37e3f</ITEM>
+  <ITEM ANGIE-VAR="?title">Rip It Up</ITEM>
+  <ITEM ANGIE-VAR="?length">115293</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">1030a07b-77cf-499c-a6f7-957ae45da277</ITEM>
+  <ITEM ANGIE-VAR="?title">Love Me</ITEM>
+  <ITEM ANGIE-VAR="?length">164773</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">167974a4-df97-46ee-95ea-ea98e103f300</ITEM>
+  <ITEM ANGIE-VAR="?title">When My Blue Moon Turns to Gold Again</ITEM>
+  <ITEM ANGIE-VAR="?length">144346</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">3f2dd109-6b07-44ff-b51d-18aeaba447b1</ITEM>
+  <ITEM ANGIE-VAR="?title">Paralyzed</ITEM>
+  <ITEM ANGIE-VAR="?length">145666</ITEM></RECORD></RESULT>

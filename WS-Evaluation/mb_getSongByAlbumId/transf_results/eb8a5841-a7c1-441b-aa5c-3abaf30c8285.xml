@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><RESULT xmlns:mb="http://musicbrainz.org/ns/mmd-2.0#">
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">dc66bb83-ac5e-4c1d-85ad-1107766b5320</ITEM>
+  <ITEM ANGIE-VAR="?title">I Love You Because</ITEM>
+  <ITEM ANGIE-VAR="?length">162666</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">fe23f7c6-6549-46b7-8029-0a3e75540662</ITEM>
+  <ITEM ANGIE-VAR="?title">Trying to Get to You</ITEM>
+  <ITEM ANGIE-VAR="?length">153000</ITEM></RECORD></RESULT>

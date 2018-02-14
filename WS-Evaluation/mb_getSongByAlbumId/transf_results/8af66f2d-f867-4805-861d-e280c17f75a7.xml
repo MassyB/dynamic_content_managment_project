@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><RESULT xmlns:mb="http://musicbrainz.org/ns/mmd-2.0#">
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">0613aa58-5a5a-4d13-94fd-7f1c8bef1fb1</ITEM>
+  <ITEM ANGIE-VAR="?title">Any Way You Want Me (That’s How I Will Be)</ITEM>
+  <ITEM ANGIE-VAR="?length">132000</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">86788018-eb99-4de1-a3a1-e2004fe75ce9</ITEM>
+  <ITEM ANGIE-VAR="?title">Love Me Tender</ITEM>
+  <ITEM ANGIE-VAR="?length">164000</ITEM></RECORD></RESULT>

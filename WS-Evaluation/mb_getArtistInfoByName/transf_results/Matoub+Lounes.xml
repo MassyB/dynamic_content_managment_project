@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><RESULT xmlns:mb="http://musicbrainz.org/ns/mmd-1.0#">
+<RECORD>
+  <ITEM ANGIE-VAR="?artistName">Lounès Matoub</ITEM>
+  <ITEM ANGIE-VAR="?artistId">e2af3275-06f0-482f-b687-ff9f24b40aff</ITEM>
+  <ITEM ANGIE-VAR="?beginDate">1956-01-24</ITEM>
+  <ITEM ANGIE-VAR="?endDate">1998-06-25</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?artistName">Lounès Kheloui</ITEM>
+  <ITEM ANGIE-VAR="?artistId">12d14a86-b86a-4a20-9d6a-e6a7d24e84bd</ITEM>
+  <ITEM ANGIE-VAR="?beginDate"/>
+  <ITEM ANGIE-VAR="?endDate"/></RECORD></RESULT>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><RESULT xmlns:mb="http://musicbrainz.org/ns/mmd-2.0#">
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">250d6f3f-c5fd-4d79-9c54-f2e876f51869</ITEM>
+  <ITEM ANGIE-VAR="?title">I Forgot to Remember to Forget</ITEM>
+  <ITEM ANGIE-VAR="?length">149000</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">70218675-324b-4d26-b30a-f21641fb6a85</ITEM>
+  <ITEM ANGIE-VAR="?title">Mystery Train</ITEM>
+  <ITEM ANGIE-VAR="?length">145693</ITEM></RECORD></RESULT>

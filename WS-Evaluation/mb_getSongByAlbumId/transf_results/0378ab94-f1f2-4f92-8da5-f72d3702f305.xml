@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><RESULT xmlns:mb="http://musicbrainz.org/ns/mmd-2.0#">
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">0fcf5eaa-d218-4517-a07e-dd615df6ccbf</ITEM>
+  <ITEM ANGIE-VAR="?title">I Don’t Care If the Sun Don’t Shine</ITEM>
+  <ITEM ANGIE-VAR="?length">147000</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">9ceb7a6a-2099-4ceb-aeae-ab82a9687fd8</ITEM>
+  <ITEM ANGIE-VAR="?title">Good Rockin’ Tonight</ITEM>
+  <ITEM ANGIE-VAR="?length">130000</ITEM></RECORD></RESULT>

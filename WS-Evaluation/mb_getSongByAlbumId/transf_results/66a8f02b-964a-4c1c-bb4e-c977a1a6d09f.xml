@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><RESULT xmlns:mb="http://musicbrainz.org/ns/mmd-2.0#">
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">243c43d7-e8be-4985-b04a-4aed0fd7d742</ITEM>
+  <ITEM ANGIE-VAR="?title">Animal</ITEM>
+  <ITEM ANGIE-VAR="?length">327506</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">2ab31c3d-1ac0-4dca-99cb-ff07e054c7ba</ITEM>
+  <ITEM ANGIE-VAR="?title">Le Pas des ballerines</ITEM>
+  <ITEM ANGIE-VAR="?length">378506</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">601d56ad-817e-4084-981a-ea9c95cd0007</ITEM>
+  <ITEM ANGIE-VAR="?title">J'ai peur de l'avion</ITEM>
+  <ITEM ANGIE-VAR="?length">234893</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">66cf1eb1-c22d-4aea-96f2-622554e9d400</ITEM>
+  <ITEM ANGIE-VAR="?title">C’est écrit</ITEM>
+  <ITEM ANGIE-VAR="?length">354133</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">77dc1ae0-14f8-4b1d-97af-39aca7167793</ITEM>
+  <ITEM ANGIE-VAR="?title">Petite sirène</ITEM>
+  <ITEM ANGIE-VAR="?length">227026</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">b02337a2-deed-4391-9a5b-5d2414afa173</ITEM>
+  <ITEM ANGIE-VAR="?title">Dormir debout</ITEM>
+  <ITEM ANGIE-VAR="?length">288773</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">b3175adc-0da9-4769-9159-8e85fc0c81a2</ITEM>
+  <ITEM ANGIE-VAR="?title">Tout le monde y pense</ITEM>
+  <ITEM ANGIE-VAR="?length">244266</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">d79c0a82-2fff-4427-acb8-b9543f37251f</ITEM>
+  <ITEM ANGIE-VAR="?title">Sarbacane</ITEM>
+  <ITEM ANGIE-VAR="?length">248000</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">db38fb85-a78a-4483-b39e-eeb0d58b96eb</ITEM>
+  <ITEM ANGIE-VAR="?title">Je sais que tu danses</ITEM>
+  <ITEM ANGIE-VAR="?length">291706</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">fadd8147-388d-445d-8da1-cc16a038cf47</ITEM>
+  <ITEM ANGIE-VAR="?title">Rosie</ITEM>
+  <ITEM ANGIE-VAR="?length">229426</ITEM></RECORD></RESULT>

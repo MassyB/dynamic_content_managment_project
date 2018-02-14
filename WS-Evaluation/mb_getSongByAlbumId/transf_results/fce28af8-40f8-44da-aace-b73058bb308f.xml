@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><RESULT xmlns:mb="http://musicbrainz.org/ns/mmd-2.0#">
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">183bd03c-1225-4cc3-9746-6b1c50d24586</ITEM>
+  <ITEM ANGIE-VAR="?title">Hound Dog</ITEM>
+  <ITEM ANGIE-VAR="?length">136960</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">85ec1841-14ac-49b1-8aeb-f13b4dca1c22</ITEM>
+  <ITEM ANGIE-VAR="?title">Don’t Be Cruel</ITEM>
+  <ITEM ANGIE-VAR="?length">123360</ITEM></RECORD></RESULT>

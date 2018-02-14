@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><RESULT xmlns:mb="http://musicbrainz.org/ns/mmd-2.0#">
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">28d0102e-eccd-4be4-b765-6a73af8a3dc7</ITEM>
+  <ITEM ANGIE-VAR="?title">Money Honey</ITEM>
+  <ITEM ANGIE-VAR="?length">156266</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">6dc1bf63-80e5-48ba-a47f-f1037fb90d4d</ITEM>
+  <ITEM ANGIE-VAR="?title">One‐Sided Love Affair</ITEM>
+  <ITEM ANGIE-VAR="?length">131266</ITEM></RECORD></RESULT>

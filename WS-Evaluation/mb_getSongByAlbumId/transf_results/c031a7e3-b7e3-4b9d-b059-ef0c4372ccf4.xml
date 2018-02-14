@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><RESULT xmlns:mb="http://musicbrainz.org/ns/mmd-2.0#">
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">63f1424b-b835-46e2-a0be-2fb0b0d38ac9</ITEM>
+  <ITEM ANGIE-VAR="?title">La Corrida</ITEM>
+  <ITEM ANGIE-VAR="?length">333000</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">bea42bac-5803-4d68-a07d-ac3124ab91ed</ITEM>
+  <ITEM ANGIE-VAR="?title">Vite croisée</ITEM>
+  <ITEM ANGIE-VAR="?length">328000</ITEM></RECORD></RESULT>

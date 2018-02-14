@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args){
 
-        Query query = Query.parse("t(?id,?aTitle,?rTitle,?aDate,?rlength)<-mb_getArtistInfoByName^iooo(\"Elvis Presley\",?id,?bDate,?eDate)#mb_getAlbumsArtistId^ioooo(?id,?aTitle,?aId,?aDate,?country)#mb_getSongByAlbumId^iooo(?aId,?rId,?rTitle,?rlength)");
+        Query query = Query.parse("albums(?aTitle,?aDate)<-mb_getArtistInfoByName^iooo(\"Ed Sheeran\",?id,?bDate,?eDate)#mb_getAlbumsArtistId^ioooo(?id,?aTitle,?aId,?aDate,?country)");
 
         if(! query.isWellFormed()){
             System.out.println("query not well formed");

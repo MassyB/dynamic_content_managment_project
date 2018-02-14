@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><RESULT xmlns:mb="http://musicbrainz.org/ns/mmd-2.0#">
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">530bd823-3c7d-41c8-8794-e3c8bcea8315</ITEM>
+  <ITEM ANGIE-VAR="?title">I Forgot to Remember to Forget</ITEM>
+  <ITEM ANGIE-VAR="?length"/></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">586a775e-91b9-4d45-a03c-ad3c6b9f565a</ITEM>
+  <ITEM ANGIE-VAR="?title">I Was the One</ITEM>
+  <ITEM ANGIE-VAR="?length"/></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">c06c19b2-35e9-4fb3-9616-05fe55b037a3</ITEM>
+  <ITEM ANGIE-VAR="?title">Heartbreak Hotel</ITEM>
+  <ITEM ANGIE-VAR="?length">129373</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">f5129640-c5e4-43a4-8b36-6d4cd937485d</ITEM>
+  <ITEM ANGIE-VAR="?title">Money Honey</ITEM>
+  <ITEM ANGIE-VAR="?length"/></RECORD></RESULT>

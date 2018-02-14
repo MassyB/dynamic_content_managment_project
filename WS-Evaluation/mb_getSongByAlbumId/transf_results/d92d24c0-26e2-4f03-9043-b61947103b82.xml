@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><RESULT xmlns:mb="http://musicbrainz.org/ns/mmd-2.0#">
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">548fd126-d425-403f-8bf9-cb8780761aac</ITEM>
+  <ITEM ANGIE-VAR="?title">Blue Moon of Kentucky</ITEM>
+  <ITEM ANGIE-VAR="?length">121000</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">a7a0ff20-c4f0-4a29-a423-226c34926e1f</ITEM>
+  <ITEM ANGIE-VAR="?title">That's All Right</ITEM>
+  <ITEM ANGIE-VAR="?length">116000</ITEM></RECORD></RESULT>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><RESULT xmlns:mb="http://musicbrainz.org/ns/mmd-2.0#">
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">12af7295-5597-4e3b-853d-7c7ec9249d23</ITEM>
+  <ITEM ANGIE-VAR="?title">I'm Left, You're Right, She's Gone</ITEM>
+  <ITEM ANGIE-VAR="?length"/></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">31d4e3b9-c47a-44d5-94e8-2650573b7265</ITEM>
+  <ITEM ANGIE-VAR="?title">Baby Let’s Play House</ITEM>
+  <ITEM ANGIE-VAR="?length">136000</ITEM></RECORD></RESULT>

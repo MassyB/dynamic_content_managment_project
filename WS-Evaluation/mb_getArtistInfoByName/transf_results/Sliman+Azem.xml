@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><RESULT xmlns:mb="http://musicbrainz.org/ns/mmd-1.0#">
+<RECORD>
+  <ITEM ANGIE-VAR="?artistName">Azem</ITEM>
+  <ITEM ANGIE-VAR="?artistId">433be83b-ac34-4841-b78f-907cfcb76d3a</ITEM>
+  <ITEM ANGIE-VAR="?beginDate"/>
+  <ITEM ANGIE-VAR="?endDate"/></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?artistName">Dirar Sliman</ITEM>
+  <ITEM ANGIE-VAR="?artistId">8f01ff3b-80b7-4f05-ade3-92af0a5be182</ITEM>
+  <ITEM ANGIE-VAR="?beginDate"/>
+  <ITEM ANGIE-VAR="?endDate"/></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?artistName">Sliman Elmoghraby</ITEM>
+  <ITEM ANGIE-VAR="?artistId">34677604-20b9-4134-9e30-9fb7fc80a9c8</ITEM>
+  <ITEM ANGIE-VAR="?beginDate"/>
+  <ITEM ANGIE-VAR="?endDate"/></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?artistName">Azem-Groupe</ITEM>
+  <ITEM ANGIE-VAR="?artistId">64ee4094-e4b5-4b32-9eb2-b6a2da77f78d</ITEM>
+  <ITEM ANGIE-VAR="?beginDate">1998</ITEM>
+  <ITEM ANGIE-VAR="?endDate"/></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?artistName">Slimane Azem</ITEM>
+  <ITEM ANGIE-VAR="?artistId">ba5818bf-bc8d-494d-9324-446237bacad3</ITEM>
+  <ITEM ANGIE-VAR="?beginDate"/>
+  <ITEM ANGIE-VAR="?endDate"/></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?artistName">Karina El Azem</ITEM>
+  <ITEM ANGIE-VAR="?artistId">62704de5-70d1-4479-b32d-213636dce392</ITEM>
+  <ITEM ANGIE-VAR="?beginDate"/>
+  <ITEM ANGIE-VAR="?endDate"/></RECORD></RESULT>

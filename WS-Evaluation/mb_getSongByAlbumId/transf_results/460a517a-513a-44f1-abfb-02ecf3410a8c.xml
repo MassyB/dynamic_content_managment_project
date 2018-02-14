@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><RESULT xmlns:mb="http://musicbrainz.org/ns/mmd-2.0#">
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">c06c19b2-35e9-4fb3-9616-05fe55b037a3</ITEM>
+  <ITEM ANGIE-VAR="?title">Heartbreak Hotel</ITEM>
+  <ITEM ANGIE-VAR="?length">129373</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">f0400410-5f5e-47a4-bcc5-4b7bd506ff16</ITEM>
+  <ITEM ANGIE-VAR="?title">I Was the One</ITEM>
+  <ITEM ANGIE-VAR="?length">155000</ITEM></RECORD></RESULT>

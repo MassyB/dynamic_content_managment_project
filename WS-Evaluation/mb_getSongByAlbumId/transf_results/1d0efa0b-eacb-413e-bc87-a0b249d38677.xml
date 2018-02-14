@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><RESULT xmlns:mb="http://musicbrainz.org/ns/mmd-2.0#">
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">1bc2319f-db8f-4616-9f76-d5ace2327986</ITEM>
+  <ITEM ANGIE-VAR="?title">Shake, Rattle and Roll</ITEM>
+  <ITEM ANGIE-VAR="?length"/></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">439ce5b3-9de0-4581-9793-b21e4274b80a</ITEM>
+  <ITEM ANGIE-VAR="?title">Lawdy Miss Clawdy</ITEM>
+  <ITEM ANGIE-VAR="?length"/></RECORD></RESULT>

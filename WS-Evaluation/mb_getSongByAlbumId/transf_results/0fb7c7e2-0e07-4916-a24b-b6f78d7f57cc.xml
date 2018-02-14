@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><RESULT xmlns:mb="http://musicbrainz.org/ns/mmd-2.0#">
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">53b0deda-5357-404b-a69b-e34a266349f3</ITEM>
+  <ITEM ANGIE-VAR="?title">Just Because</ITEM>
+  <ITEM ANGIE-VAR="?length">154000</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">ecb4c897-d43d-440b-8066-54ad44e95b7e</ITEM>
+  <ITEM ANGIE-VAR="?title">Blue Moon</ITEM>
+  <ITEM ANGIE-VAR="?length">161200</ITEM></RECORD></RESULT>

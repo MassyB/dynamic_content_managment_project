@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><RESULT xmlns:mb="http://musicbrainz.org/ns/mmd-2.0#">
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">15fdb7aa-a412-4422-b4e8-2484bec20a58</ITEM>
+  <ITEM ANGIE-VAR="?title">I'll Never Let You Go (Little Darlin')</ITEM>
+  <ITEM ANGIE-VAR="?length">142400</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">b22017e4-934d-40c9-abee-816c4f5db18f</ITEM>
+  <ITEM ANGIE-VAR="?title">I’m Gonna Sit Right Down and Cry (Over You)</ITEM>
+  <ITEM ANGIE-VAR="?length">121000</ITEM></RECORD></RESULT>

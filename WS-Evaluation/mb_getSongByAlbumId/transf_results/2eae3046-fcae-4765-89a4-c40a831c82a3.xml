@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><RESULT xmlns:mb="http://musicbrainz.org/ns/mmd-2.0#">
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">72ee8b08-ec09-48f2-9ac0-1377472a2fbe</ITEM>
+  <ITEM ANGIE-VAR="?title">I Want You, I Need You, I Love You</ITEM>
+  <ITEM ANGIE-VAR="?length">160000</ITEM></RECORD>
+<RECORD>
+  <ITEM ANGIE-VAR="?albumId">NODEF</ITEM>
+  <ITEM ANGIE-VAR="?recordingId">7b5e4f6c-f17d-4c7b-b3c7-d81c77e73175</ITEM>
+  <ITEM ANGIE-VAR="?title">My Baby Left Me</ITEM>
+  <ITEM ANGIE-VAR="?length">133000</ITEM></RECORD></RESULT>
