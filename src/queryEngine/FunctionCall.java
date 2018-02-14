@@ -45,7 +45,9 @@ public class FunctionCall {
 
         return true;
     }
-
+    /**
+     * gets an array list of arguments
+     * */
     public ArrayList<String[]> getInputFromTable(Table t){
 
         // capable of joining with the table

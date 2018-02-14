@@ -22,6 +22,10 @@ public class Workflow {
         this.ouputTable = ouputTable;
     }
 
+    /**
+     * checks if the workflow is admissible. Every input variable has been linked: already used in
+     * previous function calls as output.
+     * */
     public boolean isAdmissible(){
 
         Set<String> seenVars = new HashSet<>();

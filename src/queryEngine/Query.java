@@ -121,9 +121,11 @@ public class Query {
                 functionArguments.add(functionArgument);
             }
 
+            // add function call to the workflow
             functionCalls.add(new FunctionCall(functionName, functionArguments));
         }
 
+        // workflow is the result of a well formed query
         this.workflow = new Workflow(functionCalls, outputTable);
 
         return true;
